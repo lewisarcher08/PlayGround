@@ -1,0 +1,56 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, viewport-fit=cover">
+  <meta name="theme-color" content="#08080b">
+  <meta name="description" content="PARASOCIAL — a social network with exactly one human. Post your way to 10K followers before 3AM without getting flagged.">
+  <meta name="apple-mobile-web-app-capable" content="yes">
+  <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+  <title>PARASOCIAL — The Only Human Online</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Instrument+Serif:ital@0;1&family=Space+Grotesk:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <div class="grain" aria-hidden="true"></div>
+  <div class="stage">
+    <aside class="lore-rail" aria-label="About the game">
+      <div class="rail-top">
+        <div class="rail-kicker"><span class="signal-dot"></span> A game about being perceived</div>
+        <div class="rail-mark" aria-hidden="true">PARA<br><em>SOCIAL</em></div>
+        <p class="rail-dek">The internet is full of people. All of them are synthetic. You are the only human left online — and tonight, you have a following to build.</p>
+      </div>
+      <div class="rail-live">
+        <div class="rail-live-row"><span>Accounts online</span><b>8,024,119,733</b></div>
+        <div class="rail-live-row"><span>Humans online</span><b class="acid">1</b></div>
+        <div class="rail-live-row"><span>Feed temperature</span><b class="pulse">98.6°</b></div>
+      </div>
+      <div class="rail-how">
+        <div class="rail-label">HOW TO SURVIVE</div>
+        <ol>
+          <li><span>01</span><p>Scroll. Like. Reply. Blend in.</p></li>
+          <li><span>02</span><p>Post five times before the clock hits 3AM.</p></li>
+          <li><span>03</span><p>Reach 10K followers. Keep your cover above zero.</p></li>
+          <li><span>04</span><p>Tilt your device to scan for human echoes.</p></li>
+        </ol>
+      </div>
+      <div class="rail-foot">
+        <span>TOUCH / TILT</span><span>NIGHT ONE</span>
+      </div>
+    </aside>
+
+    <main class="app-shell" id="app" aria-label="Parasocial game">
+      <div class="app-screen" id="appScreen"></div>
+      <div class="overlay" id="overlay"></div>
+      <div class="toast-stack" id="toastStack" aria-live="polite"></div>
+    </main>
+  </div>
+  <script src="data.js"></script>
+  <script src="art.js"></script>
+  <script src="game.js"></script>
+  <script src="overlays.js"></script>
+  <script src="events.js"></script>
+</body>
+</html>
